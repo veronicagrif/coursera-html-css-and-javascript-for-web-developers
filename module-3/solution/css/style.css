@@ -1,0 +1,23 @@
+#header-nav {
+	background-color: yellow;
+}
+h1 {
+	margin:0;
+}
+#main-content {
+	height: 1000px;
+	background-color: green;
+}
+li {
+	text-align: center;
+	border: 1px  solid;
+}
+#collapsable-nav {
+	border: 0;
+}
+
+@media (max-width: 767px) {
+	#main-content{
+	margin: 20px;
+	}
+}
